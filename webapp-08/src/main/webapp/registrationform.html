@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2 style="color: red;" align="center">codegnan it solutions</h2>
+	<h3 style="color: blue;" align="center">Student Course
+		Registration Form</h3>
+	<form action="./reg">
+		<table align="center">
+			<tr>
+				<td>Student Name</td>
+				<td><input type="text" name="sname"></td>
+			</tr>
+			<tr>
+				<td>Student Qualification</td>
+				<td><input type="checkbox" name="squal" value="BSC">BSC
+					<input type="checkbox" name="squal" value="BTech">BTech <input
+					type="checkbox" name="squal" value="MCA">MCA <input
+					type="checkbox" name="squal" value="MTech">MTech <input
+					type="checkbox" name="squal" value="PHD">PHD</td>
+			</tr>
+			<tr>
+				<td>Student Gender</td>
+				<td><input type="radio" name="sgender" value="Male">Male
+					<input type="radio" name="sgender" value="Female">Female</td>
+			</tr>
+			<tr>
+				<td>Student Courses</td>
+				<td><select name="scourses" multiple="multiple" size="5">
+						<optgroup label="JAVA">
+							<option value="Core Java">Core Java</option>
+							<option value="Advanced Java">Advanced Java</option>
+							<option value="Spring">Spring</option>
+							<option value="WebServices">Webservices</option>
+						</optgroup>
+						<optgroup label="Python">
+							<option value="Core Python">Core Python</option>
+							<option value="Advanced Python">Advanced Python</option>
+							<option value="DJango">DJango</option>
+							<option value="WebServices">Webservices</option>
+						</optgroup>
+						<option value="Oracle">Oracle</option>
+						<option value="AWS">AWS</option>
+						<option value="DevOps">DevOps</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Branch Location</td>
+				<td><select name="branchLocation">
+						<option value="Hyderabad">Hyderabad</option>
+						<option value="vijayawada">Pune</option>
+						<option value="Banglore">Banglore</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Student Address</td>
+				<td><textarea name="saddr" rows="5" cols="30"></textarea></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Register"></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>
